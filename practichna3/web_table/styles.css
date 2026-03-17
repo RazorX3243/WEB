@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #C9A5AA;
+}
+div {
+    width: 800px;
+    margin-left: 184px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+div > nav {
+    background-color: #F4D3D3;
+    text-align: center;
+}
+ul > li {
+    display: inline-block;
+    margin: 0 10px;
+}
+main {
+    padding: 30px;
+    gap: 16px;
+    background-color: #ffffff;
+}
