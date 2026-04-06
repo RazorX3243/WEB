@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.logo-icon{
+    font-size: 20px;
+    background: linear-gradient(#BC4AF1, #E93EAE);
+    padding: 10px;
+    border-radius: 50%;
+}
+header a{
+    color: #0f0f0f;
+}
+.logo-tittle{
+    font-weight: 500;
+}
+nav ul{
+    display: flex;
+    column-gap: 30px;
+}
+nav ul li a:hover{
+    color: #b633db;
+}
+.header-top-button{
+    display: flex;
+    column-gap: 15px;
+}
+.header-top-button button{
+    border: none;
+    padding: 10px;
+    background: none;
+    border-radius: 20%;
+}
+.header-top-button button:hover{
+    background: #eaeaea;
+}
+.header-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 0;
+    color: #ffffff;
+    background: linear-gradient(135deg, #9912FA, #F63499, #FF8815);
+    row-gap: 20px;
+}
+.header-bottom h1{
+    font-size: 60px;
+    font-weight: 550;
+    width: 770px;
+    line-height: 60px;
+    text-align: center;
+}
+.header-bottom p{
+    font-size: 20px;
+    width: 770px;
+    text-align: center;
+    font-weight: 400;
+}
+.header-bottom-btn button{
+    border: none;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 13px;
+    color: rgb(186, 74, 244);
+    font-weight: 500;
+}
+#btn-hover{
+    color: transparent;
+}
+
+#btn-hover:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: #0f0f0f;
+}
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 0;
+    column-gap: 20px;
+    text-align: center;
+}
+.catalog-cards {
+    max-width: 300px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.advantages article span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4e8ff;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    color: #9810FA;
+    margin: 0 auto;
+}
+.advantages article h3{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+}
+.card{
+    border: 1px solid #dbdbdb;
+    border-radius: 15px;
+}
+.catalog{
+    display: flex;
+    flex-direction: column;
+    padding: 65px;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.catalog h2{
+    font-size: 36px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+}
+.catalog > p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #575371;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.label{
+    font-size: 12px;
+    line-height: 16px;
+    color: #881fd4;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.card-text{
+    padding: 16px;
+    padding-top: 30px;
+}
+.card-text p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #5a5859;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.cost{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #881fd4;
+    margin-bottom: 15px;
+}
+.instock{
+    font-size: 12px;
+    color: #37a37a;
+}
+.card-btn{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: #881fd4;
+    color: #ffffff;
+    cursor: pointer;
+}
+.card-btn:hover{
+    background: #673ab7;
+}
+.catalog button{
+    width: fit-content;
+    padding: 0 24px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #7d39bb;
+    color: #eaeaea;
+    cursor: pointer;
+}
