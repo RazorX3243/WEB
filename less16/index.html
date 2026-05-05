@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>site</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
 <div class="wrapper">
@@ -36,7 +37,7 @@
     </form>
     <form class="type-a">
         <h2>Професійна інформація</h2>
-        <section>
+        <section class="info-a">
             <label>
                 <h3>Бажана позиція *</h3>
                 <select>
@@ -65,7 +66,7 @@
     </form>
     <form class="type-b">
         <h2>Додаткова інформація</h2>
-        <section>
+        <section class="info-b">
             <label>
                 <h3>GitHub профіль</h3>
                 <input type="url" name="github" placeholder="https://github.com/username">
@@ -89,15 +90,15 @@
         </section>
     </form>
     <div class="agree">
-        <input type="checkbox" name="agree">Я даю згоду на обробку персональних даних та підтверджую, що вся надана інформація є достовірною *
+        <input type="checkbox" class="check" name="agree">Я даю згоду на обробку персональних даних та підтверджую, що вся надана інформація є достовірною *
     </div>
     <button class="send">Надіслати заявку</button>
     <footer>
-        <h3>💡 Підказки по заповненню:</h3>
-        <p>✓ Зелена рамка — поле заповнено правильно
-            ✗ Червона рамка — поле заповнено неправильно
-            → Синя лінія зліва — обов'язкове поле
-            ↗ Наведіть курсор на поле для ефекту підсвічування</p>
+        <h2>💡 Підказки по заповненню:</h2>
+        <div>✓ Зелена рамка — поле заповнено правильно</div>
+        <div>✗ Червона рамка — поле заповнено неправильно</div>
+        <div>→ Синя лінія зліва — обов'язкове поле</div>
+        <div>↗ Наведіть курсор на поле для ефекту підсвічування</div>
     </footer>
 </div>
 </body>
